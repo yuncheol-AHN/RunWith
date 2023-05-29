@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene) // window는 scenedelegate의 property ?
         
-        let mainViewController = ViewController()
+        let mainViewController = TabBarViewController()
         
         window?.rootViewController = mainViewController
         window?.makeKeyAndVisible()
